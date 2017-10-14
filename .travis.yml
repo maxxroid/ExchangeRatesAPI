@@ -17,5 +17,4 @@ cache:
 
 script:
   - ./gradlew assemble
-  - ./gradlew check
   - ./gradlew build
