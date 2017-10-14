@@ -1,0 +1,10 @@
+/*
+ * Copyright (c) 2017.
+ *
+ * Created by Mahesh for CurrencyConverterAPI on 14.10.2017.
+ *
+ * Last Modified 14/10/17 1:52 PM.
+ */
+
+rootProject.name = 'ExchangeRatesAPI'
+
