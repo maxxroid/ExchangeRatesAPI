@@ -1,7 +1,7 @@
 # ExchangeRatesAPI
 Exchange Rates API in Java using fixer.io
 
-[![Release](https://jitpack.io/v/maxxroid/ExchangeRatesAPI.svg)](https://jitpack.io/#maxxroid/ExchangeRatesAPI)
+[![Release](https://jitpack.io/v/maxxroid/ExchangeRatesAPI.svg)](https://jitpack.io/#maxxroid/ExchangeRatesAPI) [![Build Status](https://travis-ci.org/maxxroid/ExchangeRatesAPI.svg?branch=master)](https://travis-ci.org/maxxroid/ExchangeRatesAPI)
 
 ## Add dependency
 ### Gradle
