@@ -10,6 +10,9 @@ package ws.mahesh.api.exchangerates.internal;
 import ws.mahesh.api.exchangerates.model.Currency;
 import ws.mahesh.api.exchangerates.model.ExchangeRates;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
@@ -120,7 +123,13 @@ class Util {
     }
 
     private static Date convertToDate(String date) {
-        return null;
+        DateFormat df = new SimpleDateFormat("yyyy-mm-dd");
+        try {
+            return df.parse(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     static String createSymbolsString(Collection<Currency> symbolsCollection) {

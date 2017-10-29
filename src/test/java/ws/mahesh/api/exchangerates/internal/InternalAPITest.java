@@ -29,6 +29,7 @@ public class InternalAPITest {
         assertNotNull(exchange);
         assertNotNull(exchange.getRates());
         assertNotNull(exchange.getBase());
+        assertNotNull(exchange.getDate());
         assertNotNull(exchange.getRates().getINR());
     }
 
@@ -38,6 +39,7 @@ public class InternalAPITest {
         assertNotNull(exchange);
         assertNotNull(exchange.getRates());
         assertNotNull(exchange.getBase());
+        assertNotNull(exchange.getDate());
         assertEquals(Currency.USD.name(), exchange.getBase());
         assertNotNull(exchange.getRates().getINR());
     }
@@ -49,6 +51,7 @@ public class InternalAPITest {
         assertNotNull(exchange);
         assertNotNull(exchange.getRates());
         assertNotNull(exchange.getBase());
+        assertNotNull(exchange.getDate());
         assertNotNull(exchange.getRates().getINR());
         assertNotNull(exchange.getRates().getUSD());
     }
@@ -60,6 +63,7 @@ public class InternalAPITest {
         assertNotNull(exchange);
         assertNotNull(exchange.getRates());
         assertNotNull(exchange.getBase());
+        assertNotNull(exchange.getDate());
         assertEquals(Currency.USD.name(), exchange.getBase());
         assertNotNull(exchange.getRates().getINR());
         assertNotNull(exchange.getRates().getEUR());
